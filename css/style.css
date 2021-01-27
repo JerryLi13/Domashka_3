@@ -1,0 +1,152 @@
+/*ОБНУЛЯЮЩИЙ СТИЛь*/
+*,*::before,*::after{
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+li{
+	list-style: none;
+}
+a,
+a :visited{
+	text-decoration: none;
+}
+a :hover{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: inherit; font-size: inherit;
+}
+img{
+	vertical-align: top;
+}
+
+/*ДОМАШНЯЯ РАБОТА №3*/
+
+/*ШАПКА*/
+.hat {
+	color: blue;
+	font-weight: 700;
+}
+
+/*.list a перебил .link__friendship*/
+.list a{
+	color:slategrey;
+}
+.link__friendship {
+	color: yellow;
+}
+
+#links{
+	color:violet;
+}
+.link.psychology{
+	color:turquoise;
+}
+
+h1{
+	color:teal;
+	font-weight: 700;
+}
+h2{
+	color: yellowgreen;
+	font-weight: 700;
+}
+h3{
+	color:royalblue;
+	font-weight: 700;
+}
+
+/*CLASS=REGULATIONS*/
+.text{
+	color: slategrey;
+}
+p{
+	color: crimson;
+}
+.text~p{
+	color:gold;
+}
+.text+p{
+	color:forestgreen;
+}
+
+
+span{
+	color:darkorchid;
+}
+.text>span{
+	color: darksalmon;
+}
+
+/*CLASS=TYPE*/
+.subtitle {
+	color: turquoise;
+}
+#subtitles{
+	color:teal;
+}
+.tupe__sub-title {
+	color: peru;
+}
+
+.wiew {
+	color: peru;
+}
+.view,
+.friendshi {
+	color: purple;
+}
+.type.friend{
+	color:slateblue;
+}
+.friend,
+.google {
+	color:slategray;
+}
+#gradient{
+	background: linear-gradient(45deg, #70d411 33%, #bc0d56 66%, #8AA9D6);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.type__gradients{
+	background: linear-gradient(45deg, #70d411 33%, #c3dd2e 66%, #8AA9D6);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.gradients{
+	background: linear-gradient(45deg, #11c7d4 33%, #c3dd2e 66%, #8AA9D6);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/*friendship-rules*/
+.mark {
+	background-color: blueviolet;
+}
+#marks{
+	background-color: darkgreen;
+}
+
+.friendshipp{
+	color: rgb(0, 255, 221);
+}
+.friend-shipp,
+.shipp{
+	color: forestgreen;
+}
+.shipp~p{
+	color: rgb(36, 221, 228);
+}
+.friendship-rules span{
+	color: rgb(90, 130, 189);
+}
+#spann{
+	color: fuchsia;
+}
+
+/*ПОДВАЛ*/
+.basement {
+	color: blue;
+	font-weight: 700;
+}
